@@ -75,7 +75,7 @@ class Kurz_btc{
 	 */
 	public function GetError(){
 		if(!empty($this->error)){
-			return $ŧhis->error;
+			return $this->error;
 		}else{
 			return '';
 		}
