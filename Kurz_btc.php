@@ -5,7 +5,7 @@
 *
 * @author Lukenzi <lukenzi@gmail.com>
 * @package Codeigniter
-* @subpackage KurzBTC
+* @subpackage Kurz_btc
 *
 */
 
@@ -24,7 +24,7 @@ class Kurz_btc{
 
 
 
-	/** Inicializace třídy - zjištění dat
+	/** Inicializace třídy - kontrola existence funkce "json_decode" a zjištění dat
 	 *
 	 * @return void
 	 */
@@ -102,5 +102,5 @@ class Kurz_btc{
 
 
 }
-/* End of file KurzBTC.php */
-/* Location: ./application/libraries/KurzBTC.php */
+/* End of file Kurz_btc.php */
+/* Location: ./application/libraries/Kurz_btc.php */
