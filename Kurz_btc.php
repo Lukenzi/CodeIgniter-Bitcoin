@@ -14,7 +14,7 @@ class Kurz_btc{
 
 
 
-	private $btc_url    = 'http://www.bitstamp.net/api/ticker/';
+	private $btc_url    = 'https://www.bitstamp.net/api/ticker/';
 	private $data       = '';
 	private $error      = '';
 
