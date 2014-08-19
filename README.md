@@ -26,13 +26,13 @@ $this->load->library('kurz_btc');
 poté můžete vrátit pole všech dat:
 
 ```php
-$this->btc_kurz->GetAll();
+$this->kurz_btc->GetAll();
 ```
 
 nebo můžete vrátit jen jednu položku podle klíče (last, high, low, ask, bid, volume):
 
 ```php
-$this->btc_kurz->Get('last');
+$this->kurz_btc->Get('last');
 ```
 
 případně si můžete nechat zobrazit chybu (pokud k nějaké dojde):
